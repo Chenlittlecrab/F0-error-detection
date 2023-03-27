@@ -2,7 +2,7 @@
 
 The current project explores a "dummy" way of filtering out f0 measurement errors. The f0 measurements were obtained using [VoiceSauce](https://github.com/voicesauce). 
 
-- [pitch_error_check_final_Chen.R](https://github.com/Chenlittlecrab/F0-error-detection/blob/main/pitch_error_check_final_Chen.R) flags errors tagged in different rounds
+- [pitch_error_check_final_Chen.R](https://github.com/Chenlittlecrab/F0-error-detection/blob/main/pitch_error_check_final_Chen.R) flags errors tagged in two rounds
   - In particular, specific f0 range were applied to each speaker, screening out some extreme f0 values
   - The second round of the screening filters out any f0 values that are 2 or 2.5 standard deviation from the mean f0 values
   
